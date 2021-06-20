@@ -1,0 +1,29 @@
+.img_reducao {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.slider_params {
+    margin-bottom: 1.5em;
+}
+
+.rodape{
+    font-size: 0.5em;
+}
+
+.escondido {
+    left : -25000px;
+    position: absolute;
+}
+
+.img_modal {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.img_zoom {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
