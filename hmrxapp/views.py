@@ -25,6 +25,7 @@ def sysLogin(request):
             print(request.user.id)
             return JsonResponse(
                 {'resposta': 'logado',
+                 'user_id': request.user.id,
                  'usuario': request.user.first_name}, safe=False)
         else:
             return HttpResponse({'resposta': 'nao_logado'}, safe=False)
