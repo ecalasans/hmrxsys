@@ -7,7 +7,7 @@ from django.utils import timezone
 class Filtragem(models.Model):
     avaliador = models.IntegerField(null=False)
     arquivo = models.CharField(max_length=50, default="")
-    histograma = models.CharField(max_length=2000, null=False, default="")
+    histograma = models.CharField(max_length=10000, null=False, default="")
     gamma_l = models.FloatField(default=0.01, null=False)
     gamma_h = models.FloatField(default=1.0, null=False)
     c = models.FloatField(default=0.0, null=False)
